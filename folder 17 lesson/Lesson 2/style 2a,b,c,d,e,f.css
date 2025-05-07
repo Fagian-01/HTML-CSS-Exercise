@@ -1,0 +1,97 @@
+.uber{
+ background-color: black;
+ color: white;
+ border: none; 
+ height: 40px;
+ width: 110px;
+ cursor: pointer;
+}
+.amazon{
+  background-color: rgb(255,216,20);
+  border: none;
+  border-radius: 30px;
+  width: 160px;
+  height: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.github{
+  background-color: rgb(46,164,79);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+.bootstrap1{
+  background-color: rgb(121,82,179);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  height: 40px;
+  width: 110px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.bootstarp2{
+  background-color: white;
+  color: rgb(108,117,125);
+  border: 1;
+  border-color: rgb(108,117,125);
+  border-radius: 5px;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+}
+.linkedin1{
+  background-color: rgb(10,102,194 );
+  border: none;
+  color: white;
+  border-radius: 30px;
+  height: 35px;
+  width: 210px;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.linkedin2{
+  background-color: white;
+  color: rgb(10,102,194 );
+  border-color: rgb(10,102,194 );
+  border-radius: 30px;
+  height: 35px;
+  width: 70px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.link{
+  color: rgb(0,113,133);
+}
+.p1{
+  font-size: 25;
+  font-weight: bold;
+}
+.p2{
+  color: rgb(0,118,0);
+}
+.buton1{
+  background-color: rgb(255,216,20);
+  border: none;
+  border-radius: 30px;
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.buton2{
+  background-color: rgb(255,164,28);
+  border: none;
+  border-radius: 30px;
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}

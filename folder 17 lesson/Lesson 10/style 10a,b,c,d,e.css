@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  justify-content: center;
+  color: white;
+  padding: 40px 0;
+  background-image: url(foto/backgroun.jpg);
+}
+
+.lesson-a {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 320px;
+  color: black;
+  box-shadow: 1px 2px 19px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  display: flex;
+  height: 40px;
+}
+
+.pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  margin-left: 10px;
+}
+
+.content small {
+  font-size: 0.85em;
+  color: #666;
+}
+
+.button {
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+}
+.button:hover {
+  background-color: #1da0f2d3;
+}
+
+.lesson-b {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 320px;
+  color: black;
+  box-shadow: 1px 2px 19px rgba(0, 0, 0, 0.5);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.lesson-c {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 1px 2px 15px;
+  height: 380px;
+  justify-content: center;
+  padding-left: 10px;
+  width: 600px;
+  background-color: white;
+}
+
+.video-desc {
+  display: flex;
+  gap: 15px;
+}
+
+.video-desc img {
+  width: 180px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.video-info h3 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.video-info p {
+  margin: 2px 0;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.lesson-d {
+  box-shadow: 1px 2px 19px rgb(73, 73, 73);
+  margin: 30px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: white;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  margin-bottom: -10px;
+}
+
+.fotokecil {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.mutual {
+  color: gray;
+  font-size: small;
+}
+
+.add {
+  background-color: rgb(8, 67, 196);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+.add:hover {
+  background-color: rgba(8, 68, 196, 0.76);
+}
+
+.lesson-e {
+  box-shadow: 1px 2px 19px rgb(73, 73, 73);
+  margin: 30px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  padding: 8px 12px;
+  max-width: 150px;
+  background-color: white;
+}

@@ -1,0 +1,85 @@
+.lesson-a{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+.grid1{
+  background-color: lightskyblue;
+}
+.grid2{
+  background: pink;
+}
+
+.lesson-b{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+.col1{
+  background-color: lightskyblue;
+}
+.col2{
+  background-color: pink;
+}
+.col3{
+  background-color: lightskyblue;
+}
+
+.lesson-c{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+.row{
+  background-color: pink;
+}
+
+.lesson-d {
+  box-shadow: 1px 2px 19px rgb(73, 73, 73);
+  margin: 30px;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  padding: 8px 12px;
+  max-width: 150px;
+  background-color: white;
+}
+.foto {
+  width: 150px;
+  height: 150px;
+  margin-bottom: -10px;
+}
+
+.fotokecil {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.mutual {
+  color: gray;
+  font-size: small;
+}
+
+.add {
+  background-color: rgb(8, 67, 196);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+.add:hover {
+  background-color: rgba(8, 68, 196, 0.76);
+}
+.container-d{
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+}

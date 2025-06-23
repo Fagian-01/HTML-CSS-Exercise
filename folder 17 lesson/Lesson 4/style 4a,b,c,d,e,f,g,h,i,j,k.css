@@ -1,0 +1,156 @@
+.uber{
+  background-color: black;
+  color: white;
+  border: none; 
+  padding: 13px;
+  cursor: pointer;
+ }
+ .amazon{
+   background-color: rgb(255,216,20);
+   border: none;
+   border-radius: 30px;
+   padding: 10px 45px;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ .github{
+   background-color: rgb(46,164,79);
+   color: white;
+   border: none;
+   border-radius: 6px;
+   padding: 10px 20px;
+   cursor: pointer;
+ }
+ .bootstrap1{
+   background-color: rgb(121,82,179);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   padding: 12px 20px;
+   margin-right: 10px;
+   cursor: pointer;
+ }
+ .bootstarp2{
+   background-color: white;
+   color: rgb(108,117,125);
+   border: 1;
+   border-color: rgb(108,117,125);
+   border-radius: 5px;
+   font-weight: bold;
+   padding: 11px 15px;
+   cursor: pointer;
+ }
+ .linkedin1{
+   background-color: rgb(10,102,194 );
+   border: none;
+   color: white;
+   border-radius: 30px;
+   padding: 10px 25px;
+   font-weight: bold;
+   margin-right: 10px;
+   cursor: pointer;
+ }
+ .linkedin2{
+   background-color: white;
+   color: rgb(10,102,194 );
+   border-color: rgb(10,102,194 );
+   border-radius: 30px;
+   padding: 10px 20px;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ .uber:hover{
+  opacity: 80%;
+ }
+ .amazon:hover{
+  background-color: rgb(225, 191, 19);
+ }
+ .github:hover{
+  box-shadow: 3px 3px 10px black ;
+ }
+ .bootstrap1:hover{
+  background-color: rgb(102, 69, 151);
+ }
+ .bootstarp2:hover{
+  background-color: rgb(108,117,125);
+  color: white;
+ }
+ .linkedin1:hover{
+  background-color: rgb(7, 71, 134);
+ }
+ .linkedin2:hover{
+  background-color: rgba(19, 133, 246, 0.212);
+  border-width: 3px;
+ }
+
+ .tombol2{
+  background-color: rgb(0, 135, 231);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 14px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.tombol2:hover{
+  background-color:  rgb(61, 174, 255);
+}
+
+.subscribe{
+  border: none;
+  background-color: #e00202;
+  color: white;
+  padding: 10px 15px;  
+  font-weight: bold;
+}
+
+.buton{
+  padding: 10px;
+}
+a{
+  padding: 5px;
+}
+
+.stres{
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.stres:hover{
+  transform: scale(1.45) translateX(10px);
+  transition: transform 0.3s ease-in-out;
+  background-color: darkgreen;
+}
+
+.dimensi{
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 1px 5px 7px grey;
+  cursor: pointer;
+}
+.dimensi:active{
+  box-shadow: none;
+  transform: scale(0.95);
+}
+
+.btn{
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover{
+  transform: scalex(1.2);
+}

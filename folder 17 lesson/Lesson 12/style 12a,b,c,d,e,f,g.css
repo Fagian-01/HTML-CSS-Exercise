@@ -1,0 +1,138 @@
+.lesson-a{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex1{
+  background-color: lightskyblue;
+  width: 200px;
+}
+.flex2{
+  background: pink;
+  width: 75px;
+}
+
+.lesson-b{
+  display: flex;
+}
+.col1{
+  background-color: lightskyblue;
+  width: 50px;
+}
+.col2{
+  background-color: pink;
+  flex-grow: 1;
+}
+.col3{
+  background-color: lightskyblue;
+  width: 75px;
+}
+
+.lesson-c{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.item{
+  background-color: pink;
+}
+
+.lesson-d{
+  display: flex;
+  height: 50px;
+  border: 2px solid gray;
+  align-items: center;
+}
+.y{
+  flex-grow: 1;
+}
+
+.lesson-e{
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+}
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.notip{
+  background-color: rgba(0, 106, 255, 0.786);
+  color: white;
+  padding: 4px 7px;
+  border-radius: 20px;
+  font-size: 14;
+  min-width: 30px;
+  text-align: center;
+}
+
+.lesson-f {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 320px;
+  color: black;
+  box-shadow: 1px 2px 19px rgba(0, 0, 0, 0.5);
+}
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+.info {
+  display: flex;
+  align-items: center;
+}
+.info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+  object-fit: cover;
+}
+.button {
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+}
+.button:hover {
+  background-color: #1da0f2d3;
+}
+
+.lesson-g{
+  display: flex;
+  height: 60px;
+  background-color: rgba(111, 6, 209, 0.745);
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border: none;
+}
+.teks{
+  margin-left: 10px;
+}
+.input{
+  border-radius: 50px;
+  height: 30px;
+  width: 500px;
+  border: none;
+}
+.donlot{
+  border: white 2px solid;
+  background-color:  rgba(111, 6, 209, 0.745);
+  height: 35px;
+  width: 100px;
+  color: white;
+  margin-right: 10px;
+}

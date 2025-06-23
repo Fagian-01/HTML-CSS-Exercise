@@ -1,0 +1,144 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lesson-a{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.lesson-b{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.lesson-c{
+  border: solid 0.5px #000;
+  border-width: 0.2px;
+  display: inline-block;
+  padding: 4px 7px;
+}
+
+.lesson-d{
+  width: 300px;
+  height: 100px;
+  background-color: #242424;
+  padding: 1px;
+}
+.instal{
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  margin: 11px; 
+}
+.desktop{
+  color: rgba(255, 255, 255, 0.486);
+  font-size: small;
+  margin: 11px;
+}
+
+.lesson-e{
+  border: none;
+  border-width: 0.2px;
+  display: inline-block;
+  padding: 4px 7px;
+  box-shadow: 0 0 3px;
+  
+}
+.img1{
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  object-fit: cover;
+}
+.textbox4{
+  border: none;
+  width: 200px;
+  height: 25px;
+}
+.tombol2{
+  background-color: rgb(94, 188, 255);
+  border: none;
+  border-radius: 50px;
+  height: 4vh;
+  width: 8vh;
+  color: white;
+  cursor: pointer;
+}
+.tombol2:hover{
+  background-color:  rgb(61, 174, 255);
+}
+
+.lesson-f{
+  border: none;
+  border-width: 0.2px;
+  display: inline-block;
+  padding: 4px 7px;
+  box-shadow: 0 0 3px;
+}
+.img2{
+  height: 150px;
+  width: 150px;
+}
+.name{
+  font-size: large;
+  font-weight: bold;
+}
+.friend{
+  font-size: small;
+  margin-top: -10px;
+  color: gray;
+}
+.tombol3{
+  background-color: rgb(0, 119, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 15vh;
+  cursor: pointer;
+}
+.tombol3:hover{
+  background-color: rgb(0, 89, 255);
+}
+
+.lesson-g{
+  border: none;
+  border-width: 0.2px;
+  display: inline-block;
+  padding: 4px 7px;
+  box-shadow: 0 0 3px;
+  margin: 10px;
+}
+.img3{
+  height: 150px;
+  width: 150px;
+}
+.name2{
+  font-size: large;
+  font-weight: bold;
+}
+.friend2{
+  font-size: small;
+  margin-top: -10px;
+  color: gray;
+}
+.tombol4{
+  background-color: rgb(0, 119, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 15vh;
+  cursor: pointer;
+}
+.tombol4:hover{
+  background-color: rgb(0, 89, 255);
+}
